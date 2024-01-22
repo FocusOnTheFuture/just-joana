@@ -1,3 +1,4 @@
+import React from "react";
 import styles from "./menusearch.module.scss";
 
 const MenuSearch = () => {

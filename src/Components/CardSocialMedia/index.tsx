@@ -1,3 +1,4 @@
+import React from "react";
 import styles from "./cardsocialmedia.module.scss";
 import miniLogo from "../../assets/miniLogo.png";
 import twitterLogo from "../../assets/twitter.png";

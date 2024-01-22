@@ -1,3 +1,4 @@
+import React from "react";
 import styles from "./cardlinks.module.scss"
 import cardLinkImg from "../../assets/imgLinks.png"
 

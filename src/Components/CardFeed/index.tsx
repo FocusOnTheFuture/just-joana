@@ -1,3 +1,4 @@
+import React from "react";
 import photoFeed from "../../assets/logo.png";
 import styles from "./cardfeed.module.scss";
 

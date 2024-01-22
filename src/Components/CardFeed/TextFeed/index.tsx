@@ -1,3 +1,4 @@
+import React from "react";
 import styles from "./textfeed.module.scss"
 
 export default function textFeed() {
