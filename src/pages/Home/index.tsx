@@ -23,8 +23,6 @@ export default function Home() {
                 <div className={styles.cardSocialMedia}>
                     <Card/>
                     <CardFeed/>
-                    <CardFeed/>
-                    <CardFeed/>
                 </div>
                 <div className={styles.rightSide}>
                     <MenuSearch/>
