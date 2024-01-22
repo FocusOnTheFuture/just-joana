@@ -1,3 +1,4 @@
+import React from "react";
 import MenuBar from "../../Components/MenuBar";
 import MenuSearch from "../../Components/MenuSearch";
 import CarrocelImg from "../../Components/CarrocelImg";
