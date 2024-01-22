@@ -24,6 +24,7 @@ export default function Home() {
                     <Card/>
                     <CardFeed/>
                     <CardFeed/>
+                    <CardFeed/>
                 </div>
                 <div className={styles.rightSide}>
                     <MenuSearch/>
