@@ -1,5 +1,4 @@
-# Clique aqui para ver o projeto no ar:
-[aqui](https://focusonthefuture.github.io/just-joana/).
+# Para ver o projeto no ar [clique aqui](https://focusonthefuture.github.io/just-joana/).
 
 
 
