@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import styles from "./commentsection.module.scss";
+import Button from '../Button';
 
 const CommentSection = () => {
   // Estado para armazenar a lista de comentários
@@ -26,14 +28,15 @@ const CommentSection = () => {
       </div>
 
       {/* Campo de Entrada para Novo Comentário */}
-      <div>
+      <div className={styles.containerInput}>
         <input
           type="text"
           value={newComment}
           onChange={(e) => setNewComment(e.target.value)}
           placeholder="Adicione um comentário..."
         />
-        <button onClick={handleAddComment}>Comentar</button>
+ 
+        <Button label={'Comentar'} onClick={handleAddComment}/>
       </div>
     </div>
   );
