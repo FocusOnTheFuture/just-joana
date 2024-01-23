@@ -5,7 +5,9 @@ const Button = (props: { label: string; }) => {
 
     return (
         <button className={styles.button}>
-            {label}
+            <div className={styles.label}>
+                {label}
+            </div>
         </button>
     )
 }
