@@ -21,9 +21,9 @@ const CommentSection = () => {
   return (
     <div>
       {/* Seção de Comentários */}
-      <div>
+      <div className={styles.containerComment}>
         {comments.map((comment, index) => (
-          <div key={index}>{comment}</div>
+          <div className={styles.containerCommentSingle} key={index}>{comment}</div>
         ))}
       </div>
 

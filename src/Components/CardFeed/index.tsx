@@ -1,8 +1,9 @@
 import React from "react";
 import photoFeed from "../../assets/logo.png";
 import styles from "./cardfeed.module.scss";
-
 import TextFeed from "./TextFeed";
+import CommentSection from "../CommentSection";
+
 
 export default function cardFeed() {
     return (
@@ -16,6 +17,7 @@ export default function cardFeed() {
             </section>
 
             <TextFeed/>
+            <CommentSection/>
         </>
     )
 }
