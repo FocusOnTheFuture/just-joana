@@ -6,6 +6,7 @@ import Card from "../../Components/CardSocialMedia";
 import styles from "./home.module.scss";
 import CardLinks from "../../Components/CardLinks";
 import CardFeed from "../../Components/CardFeed";
+import CardNews from "../../Components/CardNews";
 
 
 
@@ -19,7 +20,7 @@ export default function Home() {
 
             <main className={styles.main}>
                 <div className={styles.leftSide}>
-                    <CardLinks/>
+                    <CardNews/>
                 </div>
 
                 <div className={styles.cardSocialMedia}>
