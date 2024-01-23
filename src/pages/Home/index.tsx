@@ -6,6 +6,7 @@ import Card from "../../Components/CardSocialMedia";
 import styles from "./home.module.scss";
 import CardLinks from "../../Components/CardLinks";
 import CardFeed from "../../Components/CardFeed";
+import Button from "../../Components/Button"
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
         <>
             <header className={styles.header}>
                 <MenuBar/>
+                <Button label={"Publicar"}/>
             </header>
 
             <main className={styles.main}>
