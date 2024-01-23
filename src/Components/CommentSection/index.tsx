@@ -18,6 +18,15 @@ const CommentSection = () => {
     }
   };
 
+  const handleKeyDown = (event: { key: string; }) => {
+    if (event.key === "Enter") {
+      // Lógica para lidar com o envio do formulário
+      console.log("Formulário enviado com Enter!");
+      // Você pode chamar a função de envio do formulário ou executar qualquer outra ação desejada
+      handleAddComment();
+    }
+  };
+
   return (
     <div>
       {/* Seção de Comentários */}
@@ -33,6 +42,7 @@ const CommentSection = () => {
           type="text"
           value={newComment}
           onChange={(e) => setNewComment(e.target.value)}
+          onKeyDown={handleKeyDown}
           placeholder="Adicione um comentário..."
         />
  
