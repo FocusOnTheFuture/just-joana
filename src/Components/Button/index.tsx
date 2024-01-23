@@ -1,9 +1,10 @@
+import styles from "./button.module.scss";
 
 const Button = (props: { label: string; }) => {
     const { label } = props;
 
     return (
-        <button>
+        <button className={styles.button}>
             {label}
         </button>
     )
