@@ -12,7 +12,7 @@ const MenuSearch = () => {
             <body className={styles.container_search}>
                 <div className={styles["search-container"]}>
                     <input type="text" name="search" placeholder="O que procura?" className={styles["search-input"]}/>
-                    <a href="#" className={styles["search-btn"]}>
+                    <a href="https://t.me/justjoanabr" className={styles["search-btn"]}>
                             <i className={styles["fas fa-search"]}></i>
                     </a>
                 </div>

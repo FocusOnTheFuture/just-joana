@@ -38,7 +38,7 @@ const cardLinks = () => {
                 </div>
             </a>
 
-            <a href="#" aria-label="Meu Pix">
+            <a href="https://t.me/justjoanabr" aria-label="Meu Pix">
                 <img src={cardLinkImg} alt="Foto de uma fruta banana descascada pela metada dentro de uma rosquinha" />
 
             <div className={styles.container_text}>
