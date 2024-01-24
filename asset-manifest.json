@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/just-joana/static/css/main.fcbfd987.css",
-    "main.js": "/just-joana/static/js/main.39843010.js",
+    "main.js": "/just-joana/static/js/main.885bf957.js",
     "static/media/logo.png": "/just-joana/static/media/logo.08911386b952a61a6dd5.png",
     "static/media/miniLogo.png": "/just-joana/static/media/miniLogo.643aaafc7a290a1d13a1.png",
     "static/media/imgLinks.png": "/just-joana/static/media/imgLinks.588b763f68a443af077b.png",
     "index.html": "/just-joana/index.html",
     "main.fcbfd987.css.map": "/just-joana/static/css/main.fcbfd987.css.map",
-    "main.39843010.js.map": "/just-joana/static/js/main.39843010.js.map"
+    "main.885bf957.js.map": "/just-joana/static/js/main.885bf957.js.map"
   },
   "entrypoints": [
     "static/css/main.fcbfd987.css",
-    "static/js/main.39843010.js"
+    "static/js/main.885bf957.js"
   ]
 }
