@@ -12,7 +12,7 @@ import CardNews from "../../Components/CardNews";
 
 export default function Home() {
     return (
-        <>
+        <div className={styles.container}>
             <header className={styles.header}>
                 <MenuBar/>
                 {/* <Button label={"Publicar"}/> */}
@@ -36,7 +36,7 @@ export default function Home() {
             <footer className={styles.footer}>
 
             </footer>
-        </>
+        </div>
     )
 }
 
