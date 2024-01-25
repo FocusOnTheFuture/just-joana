@@ -5,8 +5,11 @@ import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import { DateCalendar } from '@mui/x-date-pickers/DateCalendar';
 
+import styles from "./calendar.module.scss";
+
 const Calendar = () => {
     return (
+        <div className={styles.container}>
             <LocalizationProvider dateAdapter={AdapterDayjs}>
             <DemoContainer components={['DateCalendar']}>
                 <DateCalendar
@@ -15,6 +18,7 @@ const Calendar = () => {
                 />
             </DemoContainer>
             </LocalizationProvider>
+        </div>
       );
 }
 
