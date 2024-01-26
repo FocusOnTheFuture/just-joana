@@ -1,13 +1,19 @@
 import React from "react";
 import styles from "./textfeed.module.scss"
 
-export default function textFeed() {
+interface textProps {
+    label: string;
+}
+
+const TextFeed: React.FC<textProps> = ({ label }) => {
 
     return (
         <div className={styles.container}>
             <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur imperdiet turpis in sodales. 
+                {label}
             </p>
         </div>
     )
 }
+
+export default TextFeed;

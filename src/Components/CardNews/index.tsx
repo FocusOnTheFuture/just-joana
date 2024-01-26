@@ -1,7 +1,12 @@
-import DateCalendarServerRequest from "../Calendar";
+import Calendar from "../Calendar";
 import styles from "./cardnews.module.scss";
 
-const CardNews = () => {
+interface NewsProps {
+    labelTitle: string;
+    labelText: string;
+}
+
+const CardNews: React.FC<NewsProps> = ({ labelTitle, labelText }) => {
     return (
         <section className={styles.section}>
             <div className={styles.container}>
@@ -9,28 +14,14 @@ const CardNews = () => {
                 <h3>Novidades</h3>
 
                 <h5 className={styles.title}>
-                    Post 1
+                    { labelTitle }
                 </h5>
                 <p className={styles.subtitle}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur imperdiet turpis in sodales.
-                </p>
-
-                <h5 className={styles.title}>
-                    Post 2
-                </h5>
-                <p className={styles.subtitle}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur imperdiet turpis in sodales.
-                </p>
-
-                <h5 className={styles.title}>
-                    Post 3
-                </h5>
-                <p className={styles.subtitle}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur imperdiet turpis in sodales.
+                    { labelText }
                 </p>
 
             </div>
-                <DateCalendarServerRequest/>
+                <Calendar/>
         </section>
     )
 }

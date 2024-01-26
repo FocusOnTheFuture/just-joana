@@ -16,8 +16,10 @@ export default function cardFeed() {
                 </span>
             </section>
 
-            <TextFeed/>
-            <CommentSection/>
+            <TextFeed label={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur imperdiet turpis in sodales."}/>
+
+            {/* IMPLEMENTAÇÃO DOS COMENTÁRIOS: */}
+            {/* <CommentSection/> */}
         </>
     )
 }

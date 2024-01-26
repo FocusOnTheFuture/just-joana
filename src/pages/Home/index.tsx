@@ -21,7 +21,7 @@ export default function Home() {
 
             <main className={styles.main}>
                 <div className={styles.leftSide}>
-                    <CardNews/>
+                    <CardNews labelTitle={"Post"} labelText={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur imperdiet turpis in sodales."}/>
                 </div>
 
                 <div className={styles.cardSocialMedia}>
