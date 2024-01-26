@@ -1,4 +1,4 @@
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import Button from "../../Components/Button";
 import styles from "./notfound.module.scss";
 import NotFoundImg from "../../assets/NotFoundImg.png";
