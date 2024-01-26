@@ -71,11 +71,11 @@ const CommentSection = () => {
           startDecorator={
             <div>
               <Box sx={{ display: 'flex', gap: 0.5, flex: 1 }}>
-                  <IconButton variant="outlined" color="neutral" onClick={addEmoji('👍')}>
-                    👍
+                  <IconButton variant="outlined" color="neutral" onClick={addEmoji('❤')}>
+                  ❤
                   </IconButton>
-                  <IconButton variant="outlined" color="neutral" onClick={addEmoji('🏖')}>
-                    🏖
+                  <IconButton variant="outlined" color="neutral" onClick={addEmoji('😘')}>
+                  😘
                   </IconButton>
                   <IconButton variant="outlined" color="neutral" onClick={addEmoji('😍')}>
                     😍
@@ -84,6 +84,7 @@ const CommentSection = () => {
                </Box>
             </div>
           }
+
           endDecorator={
             <div>
               <Typography level="body-xs" sx={{ ml: 'auto' }}>
@@ -92,9 +93,8 @@ const CommentSection = () => {
             </div>
           }
         />
-        
-          <Button label={'Comentar'} onClick={handleAddComment}/>
       </div>
+          <Button label={'Comentar'} onClick={handleAddComment}/>
     </div>
   );
 };
