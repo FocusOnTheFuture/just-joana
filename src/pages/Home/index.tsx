@@ -14,11 +14,6 @@ export default function Home() {
 
         <div className={styles.container}>
 
-            <header className={styles.header}>
-                <MenuBar/>
-                {/* <Button label={"Publicar"}/> */}
-            </header>
-
             <main className={styles.main}>
                 <div className={styles.leftSide}>
                     <CardNews labelTitle={"Post"} labelText={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur imperdiet turpis in sodales."}/>
