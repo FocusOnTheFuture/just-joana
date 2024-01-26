@@ -1,5 +1,4 @@
 import React from "react";
-import MenuBar from "../../Components/MenuBar";
 import MenuSearch from "../../Components/MenuSearch";
 import Card from "../../Components/CardSocialMedia";
 import styles from "./home.module.scss";
