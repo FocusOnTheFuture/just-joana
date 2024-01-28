@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/just-joana/static/css/main.c7b190e2.css",
-    "main.js": "/just-joana/static/js/main.0bddbe1c.js",
+    "main.css": "/just-joana/static/css/main.0b2755a8.css",
+    "main.js": "/just-joana/static/js/main.84ed7843.js",
     "static/media/NotFoundImg.png": "/just-joana/static/media/NotFoundImg.f26306c519a8e221d5e2.png",
     "static/media/logo.png": "/just-joana/static/media/logo.08911386b952a61a6dd5.png",
     "static/media/miniLogo.png": "/just-joana/static/media/miniLogo.643aaafc7a290a1d13a1.png",
     "static/media/imgLinks.png": "/just-joana/static/media/imgLinks.588b763f68a443af077b.png",
     "index.html": "/just-joana/index.html",
-    "main.c7b190e2.css.map": "/just-joana/static/css/main.c7b190e2.css.map",
-    "main.0bddbe1c.js.map": "/just-joana/static/js/main.0bddbe1c.js.map"
+    "main.0b2755a8.css.map": "/just-joana/static/css/main.0b2755a8.css.map",
+    "main.84ed7843.js.map": "/just-joana/static/js/main.84ed7843.js.map"
   },
   "entrypoints": [
-    "static/css/main.c7b190e2.css",
-    "static/js/main.0bddbe1c.js"
+    "static/css/main.0b2755a8.css",
+    "static/js/main.84ed7843.js"
   ]
 }
