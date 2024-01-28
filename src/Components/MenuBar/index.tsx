@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../../assets/logo.png';
 import styles from "./menubar.module.scss";
+import { Link } from 'react-router-dom';
 
 
 // export default function MenuBar () {
@@ -15,7 +16,9 @@ import styles from "./menubar.module.scss";
 const MenuBar = () => {
     return (
         <div className={styles.container}>
-            <img src={logo} alt="Logo Just Joana"></img>
+            <Link to="/">
+                <img src={logo} alt="Logo Just Joana"></img>
+            </Link>
 
             <ul className={styles["menu-bar"]}>
                 <li> Trabalho </li>
