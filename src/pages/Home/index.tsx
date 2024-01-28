@@ -8,7 +8,9 @@ import CardNews from "../../Components/CardNews";
 
 
 
-export default function Home() {
+
+const Home = () => {
+
     return (
 
         <div className={styles.container}>
@@ -20,9 +22,7 @@ export default function Home() {
 
                 <div className={styles.cardSocialMedia}>
                     <Card/>
-                    <CardFeed/>
-                    <CardFeed/>
-
+                    <CardFeed />
                 </div>
                 <div className={styles.rightSide}>
                     <MenuSearch/>
@@ -39,3 +39,4 @@ export default function Home() {
     )
 }
 
+export default Home;
