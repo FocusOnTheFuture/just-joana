@@ -21,7 +21,7 @@ const MenuBar = () => {
             </Link>
 
             <ul className={styles["menu-bar"]}>
-                <li> Trabalho </li>
+                <li> Trabalhos </li>
                 <li> Redes sociais </li>
             </ul>
         </div>
