@@ -37,9 +37,9 @@ function uploadImagem($descricao, $imagem) {
         // Execute a consulta SQL (você precisa configurar a conexão com o banco de dados)
 
         // Conectar ao banco de dados
-        // $servername = "seu_servidor";
-        // $username = "seu_usuario";
-        // $password = "sua_senha";
+        // $servername = "justjoana.cvg8ugi6aceh.us-east-2.rds.amazonaws.com";
+        // $username = "admin";
+        // $password = "Laranja2024";
         // $dbname = "JustJoana";
         // ...
         
