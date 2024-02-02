@@ -1,3 +1,5 @@
+import express from "express";
+
 // Incluir as bibliotecas
 // Gerencia as requisições, rotas e URLs, entre outras funcionalidades
 const express = require("express");
@@ -7,6 +9,7 @@ const cors = require('cors');
 
 // Chamar a função express
 const app = express();
+
 
 const uploadImgFeed = require('./middlewares/uploadImage');
 
@@ -33,8 +36,9 @@ app.use((req, res, next) => {
 });
 
 // Cria a rota upload para imagem
-app.post("/admin", uploadImgFeed.single('image'), async (req, res) => {
+app.post("/upload-image", uploadImgFeed.single('image'), async (req, res) => {
 
+    // Verificar se fez o upload e retorna sucesso
     if(req.file){
 
         return res.json({
@@ -43,6 +47,7 @@ app.post("/admin", uploadImgFeed.single('image'), async (req, res) => {
         });
     }
 
+    // Retornar erro quando não conseguir realizar upload
     return res.status(400).json({
         erro: true,
         message: "Erro: Upload não realizado!"
